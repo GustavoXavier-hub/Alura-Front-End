@@ -1,7 +1,10 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
     "cSpell.words": [
+        "Aceitas",
+        "Apenas",
         "Filha",
+        "formatar",
         "Implementar",
         "Metodo",
         "negociaçoes",
