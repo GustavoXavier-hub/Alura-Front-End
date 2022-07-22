@@ -1,5 +1,3 @@
-import { Negociacoes } from "./negociacoes";
-
 export class Negociacao {
     constructor(
         private _data: Date, 
@@ -16,13 +14,11 @@ export class Negociacao {
         return data;
     }
 
-    public static criaDe(dateString: string,  quantidadeString: string , valorString: string) : Negociacao{
+    public static criaDe(dataString: string, quantidadeString: string, valorString: string): Negociacao {
         const exp = /-/g;
-        const date = new Date(dateString.replace(exp, ','));
+        const date = new Date(dataString.replace(exp, ','));
         const quantidade = parseInt(quantidadeString);
         const valor = parseFloat(valorString);
         return new Negociacao(date, quantidade, valor);
-
     }
-
 }

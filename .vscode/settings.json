@@ -1,21 +1,3 @@
 {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "cSpell.words": [
-        "Aceitas",
-        "Apenas",
-        "escapar",
-        "Filha",
-        "formatar",
-        "Implementar",
-        "Metodo",
-        "negociaçoes",
-        "Precisa",
-        "QUARTA",
-        "SABADO",
-        "SEGUNDA",
-        "Semana",
-        "SEXTA",
-        "TERCA",
-        "úteis"
-    ]
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
